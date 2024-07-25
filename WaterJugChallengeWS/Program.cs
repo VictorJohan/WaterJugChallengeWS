@@ -1,3 +1,4 @@
+using WaterJugChallengeWS.Helpers;
 using WaterJugChallengeWS.Services;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -12,6 +13,7 @@ builder.Services.AddSwaggerGen();
 
 // Add services to the container.
 builder.Services.AddTransient<WaterJugService>();
+builder.Services.AddTransient<GlobalExceptionHandler>();
 
 var app = builder.Build();
 
@@ -24,7 +26,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
+app.UseMiddleware<GlobalExceptionHandler>();
 app.UseAuthorization();
 
 app.MapControllers();
