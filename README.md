@@ -11,7 +11,7 @@ This project implements a solution to the classic water jug problem. Given two j
 
 ## Setup 🛠️
 
-### 1. Clone the Repository 🛠️
+### Clone the Repository 🛠️
 ```bash
 git clone https://github.com/VictorJohan/WaterJugChallengeWS.git
 
