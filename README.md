@@ -1,0 +1,42 @@
+# Water Jug Problem Solver
+
+## Description
+
+This project implements a solution to the classic water jug problem. Given two jugs of different capacities and a target amount of water, the program determines whether it is possible to measure exactly the desired amount and provides a sequence of steps to achieve it.
+
+## System Requirements
+
+- .NET SDK 8.0 or higher
+- .NET CLI tool
+
+## Setup
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/VictorJohan/WaterJugChallengeWS.git
+
+cd WaterJugChallengeWS
+
+Ensure all dependencies are installed by running:
+dotnet restore
+
+Compile the project using the following command:
+dotnet build
+
+To run the project, use the command:
+dotnet run
+```
+## Usage
+
+The program accepts a JSON input containing the capacities of the jugs and the desired amount of water. Here is an example input:
+{
+  "xCapacity": 7,
+  "yCapacity": 10,
+  "zAmountWanted": 5
+}
+
+The program processes this input and provides a sequence of steps to measure the exact amount of water if possible.
+
+## Algorithm Explanation
+
+The algorithm uses a Breadth-First Search (BFS) approach to systematically explore all possible combinations of filling, emptying, and transferring between the two jugs. Here’s a detailed breakdown of the process:
