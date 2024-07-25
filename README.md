@@ -16,7 +16,7 @@ This project implements a solution to the classic water jug problem. Given two j
 git clone https://github.com/VictorJohan/WaterJugChallengeWS.git
 
 cd WaterJugChallengeWS
-
+```
 Ensure all dependencies are installed by running:
 dotnet restore
 
@@ -25,8 +25,8 @@ dotnet build
 
 To run the project, use the command:
 dotnet run
-```
-## Usage 📖
+
+### Usage 📖
 
 The program accepts a JSON input containing the capacities of the jugs and the desired amount of water. Here is an example input:
 ```bash
