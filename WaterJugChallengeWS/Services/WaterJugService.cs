@@ -1,10 +1,13 @@
-﻿using WaterJugChallengeWS.Models;
+﻿using Microsoft.Extensions.Caching.Memory;
+using WaterJugChallengeWS.Models;
 
 namespace WaterJugChallengeWS.Services
 {
     public class WaterJugService
     {
-        public WaterJugResponse Solve(WaterJug waterJug)
+
+
+        public WaterJugResponse SolveChallenge(WaterJug waterJug)
         {
             var response = new WaterJugResponse();
 
@@ -15,7 +18,7 @@ namespace WaterJugChallengeWS.Services
                 return response;
             }
 
-            
+
             var visited = new HashSet<(int, int)>();
             var queue = new Queue<(int x, int y, List<string> steps)>();
             queue.Enqueue((0, 0, new List<string>()));
