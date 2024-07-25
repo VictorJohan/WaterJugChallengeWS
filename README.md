@@ -29,12 +29,13 @@ dotnet run
 ## Usage
 
 The program accepts a JSON input containing the capacities of the jugs and the desired amount of water. Here is an example input:
+```bash
 {
   "xCapacity": 7,
   "yCapacity": 10,
   "zAmountWanted": 5
 }
-
+```
 The program processes this input and provides a sequence of steps to measure the exact amount of water if possible.
 
 ## Algorithm Explanation
