@@ -57,3 +57,11 @@ The algorithm uses a Breadth-First Search (BFS) approach to systematically explo
       * Completely emptying one of the jugs.
       * Transferring water between the jugs until one is full or the other is empty.
   * Each new state is marked as visited and enqueued for future exploration.
+  
+## Termination Conditions:
+* If a state is found that meets the desired amount of water, the algorithm terminates and provides the sequence of steps.
+* If all possible states are exhausted without finding a solution, the algorithm reports that no solution is possible.
+  
+## Algorithm Notes
+* <b>Optimization:</b> The algorithm is designed to minimize the number of steps needed to reach the solution, although it does not guarantee the shortest solution in terms of steps due to the nature of BFS.
+* <b>Limitations:</b> The algorithm's efficiency decreases with increasing jug capacities due to the exponential growth of the search space in combinatorial problems.
