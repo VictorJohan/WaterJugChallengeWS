@@ -46,3 +46,10 @@ The algorithm uses a Breadth-First Search (BFS) approach to systematically explo
 
 * Start with both jugs empty and enqueue this state for exploration.
 * A set is used to keep track of visited states to prevent redundancy.
+
+## State Exploration:
+
+* While there are states in the queue, the algorithm:
+  * Dequeues the current state.
+  * Checks if the current state meets the desired amount of water.
+  * If not, generates all possible states that can be derived from the current state by:
