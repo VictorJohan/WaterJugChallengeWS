@@ -42,7 +42,7 @@ The program processes this input and provides a sequence of steps to measure the
 
 The algorithm uses a Breadth-First Search (BFS) approach to systematically explore all possible combinations of filling, emptying, and transferring between the two jugs. Here’s a detailed breakdown of the process:
 
-## Initialization:
+## Initialization 🚀
 
 * Start with both jugs empty and enqueue this state for exploration.
 * A set is used to keep track of visited states to prevent redundancy.
