@@ -33,6 +33,7 @@ dotnet run
 ### Usage 📖
 
 The program accepts a JSON input containing the capacities of the jugs and the desired amount of water. Here is an example input:
+/api/WaterJug/solveChallenge
 ```bash
 {
   "xCapacity": 7,
@@ -41,6 +42,18 @@ The program accepts a JSON input containing the capacities of the jugs and the d
 }
 ```
 The program processes this input and provides a sequence of steps to measure the exact amount of water if possible.
+
+```bash
+{
+  "solution": [
+    "Fill bucket X",
+    "Transfer from bucket X to bucket Y",
+    "Fill bucket X",
+    "Transfer from bucket X to bucket Y"
+  ]
+}
+```
+
 
 ## Algorithm Explanation 🧠
 
