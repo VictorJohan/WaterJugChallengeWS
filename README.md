@@ -18,14 +18,18 @@ git clone https://github.com/VictorJohan/WaterJugChallengeWS.git
 cd WaterJugChallengeWS
 ```
 Ensure all dependencies are installed by running:
+```bash
 dotnet restore
-
+```
 Compile the project using the following command:
+
+```bash
 dotnet build
-
+```
 To run the project, use the command:
+```bash
 dotnet run
-
+```
 ### Usage 📖
 
 The program accepts a JSON input containing the capacities of the jugs and the desired amount of water. Here is an example input:
@@ -38,7 +42,7 @@ The program accepts a JSON input containing the capacities of the jugs and the d
 ```
 The program processes this input and provides a sequence of steps to measure the exact amount of water if possible.
 
-## Algorithm Explanation 🤖
+## Algorithm Explanation 🧠
 
 The algorithm uses a Breadth-First Search (BFS) approach to systematically explore all possible combinations of filling, emptying, and transferring between the two jugs. Here’s a detailed breakdown of the process:
 
