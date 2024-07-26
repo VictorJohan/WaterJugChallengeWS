@@ -37,7 +37,11 @@ dotnet run
 ### Usage 📖
 
 The program accepts a JSON input containing the capacities of the jugs and the desired amount of water. Here is an example input:
+
+```bash
 /api/WaterJug/solveChallenge
+```
+
 ```bash
 {
   "xCapacity": 7,
@@ -55,6 +59,30 @@ The program processes this input and provides a sequence of steps to measure the
     "Fill bucket X",
     "Transfer from bucket X to bucket Y"
   ]
+}
+```
+## Status Codes 🤓
+*  <b>OK 200</b> if there is a solution.
+*  <b>OK 404</b> if there isn't a solution.
+*  <b>OK 500</b> if somethin went wrong.
+```bash
+{
+  "StatusCode": 500,
+  "Message": "Error Message",
+  "Data": {
+    "ClassName": "",
+    "Message": "",
+    "Data": null,
+    "InnerException": null,
+    "HelpURL": null,
+    "StackTraceString": "",
+    "RemoteStackTraceString": null,
+    "RemoteStackIndex": 0,
+    "ExceptionMethod": null,
+    "HResult": -2147467263,
+    "Source": "WaterJugChallengeWS",
+    "WatsonBuckets": null
+  }
 }
 ```
 
