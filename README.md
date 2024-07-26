@@ -1,4 +1,4 @@
-# Water Jug Problem Solver 🎉
+# Water Jug Problem Solver 🧩
 
 ## Description 📝
 
