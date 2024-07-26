@@ -62,9 +62,9 @@ The program processes this input and provides a sequence of steps to measure the
 }
 ```
 ## Status Codes 🤓
-*  <b>OK 200</b> if there is a solution.
-*  <b>OK 404</b> if there isn't a solution.
-*  <b>OK 500</b> if somethin went wrong.
+✅ <b>OK 200</b> if there is a solution.
+❌ <b>OK 404</b> if there isn't a solution.
+❗ <b>OK 500</b> if something went wrong, in case something went wrong the server will return a response like this:
 ```bash
 {
   "StatusCode": 500,
