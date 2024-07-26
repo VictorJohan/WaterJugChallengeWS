@@ -78,7 +78,7 @@ The program processes this input and provides a sequence of steps to measure the
   "traceId": "00-369024b52b02e92ae95d7347d026d416-7ab2040ff1d4e538-00"
 }
 ```
-❗ <b>OK 500</b> if something went wrong, in case something went wrong the server will return a response like this:
+❗ <b>Internal Server Error[500]</b> if something went wrong, in case something went wrong the server will return a response like this:
 ```bash
 {
   "StatusCode": 500,
