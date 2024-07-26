@@ -128,3 +128,5 @@ The algorithm uses a Breadth-First Search (BFS) approach to systematically explo
 ## Algorithm Notes 🦿
 * <b>Optimization:</b> The algorithm is designed to minimize the number of steps needed to reach the solution, although it does not guarantee the shortest solution in terms of steps due to the nature of BFS.
 * <b>Limitations:</b> The algorithm's efficiency decreases with increasing jug capacities due to the exponential growth of the search space in combinatorial problems.
+## Using Caching
+The web service uses caching to improve performance when the server is in high demand.
