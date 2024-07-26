@@ -64,6 +64,20 @@ The program processes this input and provides a sequence of steps to measure the
 ## Status Codes 🤓
 ✅ <b>OK 200</b> if there is a solution.<br>
 ❌ <b>OK 404</b> if there isn't a solution.<br>
+👎 <b>400</b> if there is a validation error, in that case the server will return a response like this:
+```bash
+{
+  "type": "https://tools.ietf.org/html/rfc9110#section-15.5.1",
+  "title": "One or more validation errors occurred.",
+  "status": 400,
+  "errors": {
+    "XCapacity": [
+      "Capacity of the jug X must be positive."
+    ]
+  },
+  "traceId": "00-369024b52b02e92ae95d7347d026d416-7ab2040ff1d4e538-00"
+}
+```
 ❗ <b>OK 500</b> if something went wrong, in case something went wrong the server will return a response like this:
 ```bash
 {
