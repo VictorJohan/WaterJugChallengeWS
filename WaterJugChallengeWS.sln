@@ -5,6 +5,8 @@ VisualStudioVersion = 17.10.35004.147
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaterJugChallengeWS", "WaterJugChallengeWS\WaterJugChallengeWS.csproj", "{525B7F9C-AF1A-4523-9316-9180E32D96EF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaterJugChallengeWS.Tests", "WaterJugChallengeWS.Tests\WaterJugChallengeWS.Tests.csproj", "{3D41EEA8-D918-48C0-A120-6FD745159C1E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{525B7F9C-AF1A-4523-9316-9180E32D96EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{525B7F9C-AF1A-4523-9316-9180E32D96EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{525B7F9C-AF1A-4523-9316-9180E32D96EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D41EEA8-D918-48C0-A120-6FD745159C1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D41EEA8-D918-48C0-A120-6FD745159C1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D41EEA8-D918-48C0-A120-6FD745159C1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D41EEA8-D918-48C0-A120-6FD745159C1E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
