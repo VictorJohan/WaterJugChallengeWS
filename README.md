@@ -62,9 +62,9 @@ The program processes this input and provides a sequence of steps to measure the
 }
 ```
 ## Status Codes 🤓
-✅ <b>OK 200</b> if there is a solution.<br>
-❌ <b>OK 404</b> if there isn't a solution.<br>
-👎 <b>400</b> if there is a validation error, in that case the server will return a response like this:
+✅ <b>OK [200]</b> if there is a solution.<br>
+❌ <b>Not Found [404]</b> if there isn't a solution.<br>
+👎 <b>Bad Request [400]</b> if there is a validation error, in that case the server will return a response like this:
 ```bash
 {
   "type": "https://tools.ietf.org/html/rfc9110#section-15.5.1",
