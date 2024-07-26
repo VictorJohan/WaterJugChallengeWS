@@ -26,6 +26,10 @@ Compile the project using the following command:
 ```bash
 dotnet build
 ```
+To run the test project, use the command:
+```bash
+dotnet test
+```
 To run the project, use the command:
 ```bash
 dotnet run
