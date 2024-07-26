@@ -1,5 +1,4 @@
-﻿using Microsoft.Extensions.Caching.Memory;
-using WaterJugChallengeWS.Models;
+﻿using WaterJugChallengeWS.Models;
 
 namespace WaterJugChallengeWS.Services
 {
@@ -7,7 +6,7 @@ namespace WaterJugChallengeWS.Services
     {
 
 
-        public WaterJugResponse SolveChallenge(WaterJug waterJug)
+        public virtual WaterJugResponse SolveChallenge(WaterJug waterJug)
         {
             var response = new WaterJugResponse();
 
